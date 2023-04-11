@@ -3834,16 +3834,6 @@ for film in films_awards:
         else:
             films_data[name] = [{'award_name': award_name, 'award': award, 'type': award_type}]
 
-"""for film_name, awards in films_data.items():
-    for letter in string.ascii_uppercase:
-        awards_letter = [a for a in awards if a['award_name'].startswith(letter)]
-        if awards_letter:
-            for award in awards_letter:
-                award_name_cleaned = replace_harry(award['award_name'])
-                file_name = f"{award_name_cleaned}.txt"
-                file_path = os.path.join("Harry Potter", replace_harry(film_name), letter, file_name)
-                with open(file_path, 'w', encoding='utf-8') as f:
-                    f.write(award['award'])"""
 for film_name, awards in films_data.items():
     for letter in string.ascii_uppercase:
         awards_letter = [a for a in awards if a['award_name'].startswith(letter)]
