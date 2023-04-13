@@ -3841,5 +3841,5 @@ for film_name, awards in films_data.items():
             award_name_cleaned = replace_harry(award['award_name'])
             file_name = f"{award_name_cleaned}.txt"
             file_path = os.path.join("Harry Potter", replace_harry(film_name), letter, file_name)
-            with open(file_path, 'w', encoding='utf-8') as f:
+            with open(file_path, 'w', encoding='utf-8') as f: 
                 f.write(award['award'])
