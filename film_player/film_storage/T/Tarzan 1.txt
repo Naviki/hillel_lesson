@@ -1,0 +1,5 @@
+Title: Tarzan 1
+Discription: The movie is about the life of Tarzan. Tarzan was a small orphan who was raised by an ape named Kala since he was a child.
+Release Year: 1999
+Genre: Adventure
+Rating: 7.3
